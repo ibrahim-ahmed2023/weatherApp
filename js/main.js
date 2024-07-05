@@ -126,7 +126,6 @@ startMyAPP();
 // })
 searchInput.addEventListener('input' , function(){
     startMyAPP(searchInput.value);
-    document.getElementById('message').classList.replace('d-block' , 'd-none')
 })
 
 
