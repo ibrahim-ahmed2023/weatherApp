@@ -1,0 +1,146 @@
+/* start navbar */
+h1{
+    font-size: 1.2em;
+}
+.logoText span{
+    font-size: 0.6em;
+}
+.navbar-expand-lg .navbar-nav .nav-item{
+    margin-left: 0.3rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.35rem 1.5rem;
+    color: white;
+    transition: 0.3s all;
+    border: 2px solid transparent;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:focus,
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border: 2px solid #009AD8;
+    color: #009AD8;
+    border-radius: 30px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: 0 0 0 0;
+}
+.navbar-toggler {
+    font-size: 1rem;
+    padding: 20px;
+}
+.navbar-toggler:hover{
+    border: 2px solid #009AD8;
+    border-radius: 50%;
+}
+.navbar-toggler:hover i{
+    color:#009AD8 !important;
+}
+/* end navbar */
+
+/* start home */
+#Home{
+    background-image: url(../images/banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    padding-block: 2.5rem ;
+}
+.location{
+    margin-bottom: 4.5rem;
+}
+.location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    border: none;
+}
+.location input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    color: white;
+    transition: 0.3s all;
+    border: none;
+}
+.location input[type="button"]:hover{
+    background-color:#009AD8;
+}
+/* end home */
+
+
+/* start cards */
+
+.cards .container .row{
+    overflow: hidden;
+    margin-top: -10.6rem;
+    margin-bottom: 3rem;
+}
+#fs6rem{
+    font-size: 6rem;
+}
+#fs3rem{
+    font-size: 3rem;
+}
+#todayConditionText{
+    color: #009AD8;
+}
+.nextDay{
+    background-color: #262936;
+}
+.nextDayConditionText{
+    color: #009AD8;
+}
+/* end cards */
+
+
+
+
+/* start footer */
+.footer{
+    padding: 3.5rem 0 1rem 0;
+}
+.footer .form input[type="text"]{
+    padding: 15px 100px 15px 20px;
+    width: 100%;
+    border: transparent;
+}
+form input{
+    border-radius: 30px;
+}
+.footer .form input[type="submit"]{
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: transparent;
+}
+.footer .footer-links a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: 0.3s ease;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.footer .footer-links a:hover{
+    background-color:#009ad8 ;
+    color: white;
+}
+/* end footer */
+
+#message{
+    bottom: -210px;
+    right: 25%;
+    min-width: 50%;
+    min-height: 200px;
+    z-index: 11;
+    border-radius: 50px;
+    background-color: #009AD8;
+}

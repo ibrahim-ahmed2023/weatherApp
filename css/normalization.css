@@ -1,0 +1,20 @@
+.main-bg-gray{
+    background-color: #262936;
+}
+.secondary-bg-dark{
+    background-color: #1E202B;
+}
+.third-bg{
+    background-color: #2D303D;
+}
+.primary-bg{
+    background-color: #009AD8;
+}
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+.gray{
+    color: #bfc1c8;
+}
+

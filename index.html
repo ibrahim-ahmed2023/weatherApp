@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/normalization.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <!-- start nav -->
+  <nav class="navbar navbar-expand-lg py-5 secondary-bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" alt="logo" class="me-2">
+        <div class="logoText d-inline-block align-middle">
+          <h1 class="text-white mb-0">Weather</h1>
+          <span class="d-block gray">tagline goes here</span>
+        </div>
+      </a>
+      <button class="navbar-toggler align-middle" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mt-4 bg-lg mt-lg-0 text-lg-end text-center">
+          <li class="nav-item pb-3 pb-lg-0">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item pb-3 pb-lg-0">
+            <a class="nav-link" href="#News">News</a>
+          </li>
+          <li class="nav-item pb-3 pb-lg-0">
+            <a class="nav-link" href="#LiveCameras">Live Cameras</a>
+          </li>
+          <li class="nav-item pb-3 pb-lg-0">
+            <a class="nav-link" href="#Photos">Photos</a>
+          </li>
+          <li class="nav-item pb-3 pb-lg-0">
+            <a class="nav-link contact" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav -->
+    <!-- start home -->
+    <div id="Home">
+      <div class="container">
+        <form class="location position-relative">
+          <input class="text-white secondary-bg-dark position-relative" type="text" placeholder="Find your location..." id="search">
+          <input class="main-bg-gray " type="button" value="search" id="input">
+          <div id="message" class="position-absolute d-none d-flex justify-content-center flex-column align-items-center fs-2 text-danger"><div class="icon"> <i class="fa-sharp fa-solid fa-triangle-exclamation"></i></div><div class="content"></div>Try enter a valid country</div>
+        </form>
+      </div>
+    </div>
+    <!-- end home -->
+
+      <!-- start cards -->
+  <div class="cards secondary-bg-dark">
+    <div class="container p-1">
+      <div class="row g-0 rounded-3" id="cards">
+        <!-- today card -->
+        <div id="todayCard" class="col-md-6 col-lg-4 third-bg"></div>
+        <!-- second day -->
+        <div class="nextdatedata col-md-6 col-lg-4 main-bg-gray text-center"></div>
+        <div class="nextdatedata col-md-6 col-lg-4 third-bg text-center"></div>
+      </div>
+    </div>
+  </div>
+  <!-- end cards -->
+
+  <!-- start footer -->
+  <footer class="footer main-bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <form action="#" class="form mb-4 position-relative">
+            <input class="secondary-bg-dark text-white" type="text" placeholder="Enter your email to subscribe...">
+            <input id="signUp" type="submit" value="Subscribe" class="position-absolute text-white primary-bg">
+          </form>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <p class="colophon">Copyright 2024 route. Designed by ibrahim ahmed. All rights reserved</p>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
